@@ -1,0 +1,26 @@
+{
+    "name": "apidocs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Diondre Edwards <diondredev@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/diondree/apidocs#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/diondree/apidocs"
+    },
+    "dependencies": {
+        "gulp": "^4.0.0",
+        "gulp-nunjucks": "^4.0.0",
+        "gulp-nunjucks-html": "^2.0.0",
+        "gulp-nunjucks-render": "^2.2.2",
+        "gulp-uglify": "^3.0.0",
+        "nunjucks": "^3.1.3"
+    }
+}

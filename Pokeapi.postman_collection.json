@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "7186bad8-0c65-4118-a901-0a9c27e6cc1d",
+		"name": "Pokeapi",
+		"description": "Pokemon API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Pokemon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://pokeapi.co/api/v2/pokemon",
+					"protocol": "http",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon"
+					]
+				},
+				"description": "Gets list of trades"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Specific Pokemon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://pokeapi.co/api/v2/pokemon/1",
+					"protocol": "http",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"1"
+					]
+				},
+				"description": "Returns info about a specific pokemon"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Type Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://pokeapi.co/api/v2/type/3",
+					"protocol": "http",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"type",
+						"3"
+					]
+				},
+				"description": "Receives data about a specific pokemon type"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Types",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://pokeapi.co/api/v2/type",
+					"protocol": "http",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"type"
+					]
+				},
+				"description": "Receives data about a specific pokemon type"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "0f5bcbb3-2208-438e-abd8-9d5546da5c0c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "70365b1d-d2d1-4f58-8270-3a2c5111f539",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
